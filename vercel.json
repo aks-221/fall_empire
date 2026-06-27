@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install vinxi @tanstack/start && npm run build",
+  "buildCommand": "npm run build",
   "routes": [
     {
       "src": "/_vercel/insights(.*)",

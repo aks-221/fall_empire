@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
-    "build": "tanstack-start build",
+    "build": "npx @tanstack/start-cli build",
     "preview": "vinxi preview",
     "lint": "eslint .",
     "format": "prettier --write ."
