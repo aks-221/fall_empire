@@ -1,0 +1,25 @@
+{
+  "name": "FALL Trading and Investing",
+  "short_name": "FALL T&I",
+  "description": "Investissement, commerce international et applications mobiles IA — Sénégal.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "icons": [
+    {
+      "src": "/__l5e/assets-v1/6ecc63fd-af59-4f48-97d9-9e7b0b94f659/fall-logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/__l5e/assets-v1/6ecc63fd-af59-4f48-97d9-9e7b0b94f659/fall-logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
