@@ -1,5 +1,17 @@
 {
-  "framework": "vinxi",
-  "buildCommand": "npm run build",
-  "outputDirectory": ".output/public"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/_vercel/insights(.*)",
+      "dest": "/_vercel/insights$1"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/.output/public/assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/.output/server/index.mjs"
+    }
+  ]
 }
