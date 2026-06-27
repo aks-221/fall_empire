@@ -1,12 +1,14 @@
-/// <reference types="vitest" />
-import { defineConfig } from "vitest/config";
+import { defineConfig } from "vite";
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import { nitro } from "nitro/vite";
+import viteReact from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [tsconfigPaths()],
-  test: {
-    environment: "jsdom",
-    globals: false,
-    include: ["src/**/*.test.{ts,tsx}"],
-  },
+  plugins: [
+    tanstackStart(),
+    nitro(),
+    viteReact(),
+    tsconfigPaths(),
+  ],
 });
